@@ -1,5 +1,5 @@
 # Site
-repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. hsun29/modern-resume-theme)
+repository: hsun29/hsun29.github.io
 # favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
 
 # Content configuration version
@@ -21,7 +21,6 @@ darkmode: false
 # Social links
 twitter_username: suviry1
 github_username:  hsun29
-stackoverflow_username: "00000001"
 facebook_username: Haoyu Sun
 instagram_username: suviry_official
 linkedin_username: Haoyu Sun
