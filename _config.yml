@@ -281,6 +281,8 @@ content:
           - title:  Prof
             icon: fab fa-address-card
             url: https://github.com/hsun29/hsun29.github.io/blob/main/images/._profile.jpg
+
+
        
   - title: Licenses & certifications
     layout: list
@@ -297,10 +299,11 @@ content:
             icon: fab fa-address-card
             url: https://github.com/hsun29/hsun29.github.io/blob/main/images/._profile.jpg
 
+        
   - title: About me
     layout: text
     content: | # this will include new lines to allow paragraphs
-    Know more about me? Fell free to contact me!
+      Know more about me? Fell free to contact me!
 
 # Footer
 footer_show_references: true
