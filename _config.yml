@@ -282,7 +282,7 @@ content:
             icon: fab fa-address-card
             url: https://github.com/hsun29/hsun29.github.io/blob/main/images/._profile.jpg
        
-- title: Licenses & certifications
+  - title: Licenses & certifications
     layout: list
     content:
       - layout: left
