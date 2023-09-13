@@ -10,7 +10,9 @@ name: Haoyu Sun (孙浩宇)
 title: AI algorithm researcher / big data analyst
 email: hsun29@hawk.iit.edu
 # email_title: Email (Email title override)
-phone: +1 124788172 (U.S)/ +86 13848676210 (Mainland of China)
+phone: | 
++1 124788172 (U.S) 
++86 13848676210 (Mainland of China)
 # phone_title: Phone (Phone title override)
 website: https://github.com/hsun29
 # website_title: Web (Website title override)
@@ -21,9 +23,9 @@ darkmode: false
 # Social links
 twitter_username: suviry1
 github_username:  hsun29
-facebook_username: https://www.facebook.com/profile.php?id=100089464023897&mibextid=LQQJ4d
+facebook_username: Haoyu Sun
 instagram_username: suviry_official
-linkedin_username: Haoyu Sun
+linkedin_username: Haoyu Sunx
 youtube_username: haoyusun131
 googlescholar_username: Haoyu Sun
 #stackoverflow_username: "00000001"
