@@ -76,8 +76,7 @@ content:
           Use a less complex linear transformer to achieve classification tasks with comparable accuracy to transformers.
         description: | # this will include new lines to allow paragraphs
           In this project, we combine the existing traditional models and apply the new model to the MRI image detection of Alzheimer's disease to achieve the identification of different degrees of pathological stages. This project compares the characteristics of the old and new model structures and conducts in-depth experimental tests. On the basis of testing, we integrate the idea of improving the prediction accuracy of the model, and design the block-CNN structure to improve the accuracy of the traditional CNN model structure. At the same time, the attention mechanism of linear complexity is applied to the computer vision classification task, which improves the efficiency and accuracy of the model.
-    layout: list # Type of content section (list/text)
-    content:
+          
       - layout: right
         title: TTA in image Segmentation (2023-Now)
         #link: https://github.com/hsun29/deeplearning
