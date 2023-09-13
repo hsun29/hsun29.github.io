@@ -14,7 +14,7 @@ phone: |
 +1 124788172 (U.S) 
 +86 13848676210 (Mainland of China)
 # phone_title: Phone (Phone title override)
-website: https://github.com/hsun29
+website: http://www.linkedin.com/in/hsun29
 # website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
@@ -25,7 +25,7 @@ twitter_username: suviry1
 github_username:  hsun29
 facebook_username: haoyu-sun
 instagram_username: suviry_official
-linkedin_username: haoyusun
+#linkedin_username: haoyusun
 youtube_username: haoyusun131
 googlescholar_username: Haoyu Sun
 #stackoverflow_username: "00000001"
