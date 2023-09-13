@@ -10,7 +10,7 @@ name: Haoyu Sun (孙浩宇)
 title: AI algorithm researcher / big data analyst
 email: hsun29@hawk.iit.edu
 # email_title: Email (Email title override)
-phone: +1 124788172 (U.S) / +86 13848676210 (Mainland of China)
+phone: +1 3124788172 (U.S) / +86 13848676210 (Mainland of China)
 # phone_title: Phone (Phone title override)
 website: http://www.linkedin.com/in/hsun29
 website_title: Linkind Personal Website
@@ -253,7 +253,7 @@ content:
       - layout: left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
-        title: 基于病害数量的路面养护性质的选取方法、介质及系统
+        title: 基于病害数量的路面养护性质的选取方法、介质及系统 (Selection methods, media and systems based on the nature of pavement maintenance based on the number of diseases)
         sub_title: 潘宗俊，张海,孙浩宇,王宇强 (Zongjun Pan, Hai Zhang, <mark>Haoyu Sun</mark>, Yuqiang Wang.)
         #link: https://github.com/hsun29/deeplearning
         #link_text: Linear ViT
@@ -273,8 +273,8 @@ content:
       - layout: right
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
-        title: 重点科技项目
-        sub_title: Issued by 中国交通运输部 · Aug 2021
+        title: Key scientific and technological projects
+        sub_title: Issued by Ministry of Transport of China · Aug 2021
         #link: https://github.com/hsun29/deeplearning
         #link_text: Linear ViT
         additional_links:
