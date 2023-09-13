@@ -52,9 +52,12 @@ googlescholar_username: Haoyu Sun
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
- Haoyu Sun who got Matser's Degree in Illinois Institute of Technology, he was born in 1996 in Inner Mongolia, and work with Dr. [Yan Yan](https://tomyan555.github.io/) (Tom Yan) who is currently a Gladwin Development Chair Assistant Professor in the Department of Computer Science at Illinois Institute of Technology. 
+ Haoyu Sun who got MAI (Master in AI) degree in Illinois Institute of Technology (IIT), he was born in 1996 in Inner Mongolia, and work with Dr. [Yan Yan](https://tomyan555.github.io/) (Tom Yan) who is currently a Gladwin Development Chair Assistant Professor in the Department of Computer Science at Illinois Institute of Technology.
 
-
+ The main courses are: <mark>deep learning (computer vision), machine learning, NLP, probability graph models and bioinformatics<mark> etc. You can feel free to check the AI core course in [IIT](https://www.iit.edu/academics/programs/artificial-intelligence-mas).
+ GPA > 3.65.
+ 
+ The research directions are subdivided into: image detection and segmentation, bioinformatics analysis, and reliable intelligent decision-making framework.
 
 content:
   - title: Projects # Title for the section
@@ -63,9 +66,9 @@ content:
       - layout: left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
+        title: Application of the Linear ViT model to the recognition of Alzheimer's disease
+        link: https://github.com/hsun29/deeplearning
+        link_text: Linear ViT
         additional_links:
           - title:  Github page for project (eg. sproogen/modern-resume-theme)
             icon: fab fa-github
