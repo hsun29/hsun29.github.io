@@ -73,9 +73,21 @@ content:
             icon: fab fa-github
             url: https://github.com/hsun29/deeplearning
         quote: >
-          Short overview of the project (optional)
+          Use a less complex linear transformer to achieve classification tasks with comparable accuracy to transformers.
         description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
+          In this project, we combine the existing traditional models and apply the new model to the MRI image detection of Alzheimer's disease to achieve the identification of different degrees of pathological stages. This project compares the characteristics of the old and new model structures and conducts in-depth experimental tests. On the basis of testing, we integrate the idea of improving the prediction accuracy of the model, and design the block-CNN structure to improve the accuracy of the traditional CNN model structure. At the same time, the attention mechanism of linear complexity is applied to the computer vision classification task, which improves the efficiency and accuracy of the model.
+
+        title: Application of the Linear ViT model to the recognition of Alzheimer's disease
+        #link: https://github.com/hsun29/deeplearning
+        #link_text: Linear ViT
+        additional_links:
+          - title:  Linear ViT
+            icon: fab fa-github
+            url: https://github.com/hsun29/deeplearning
+        quote: >
+          Use a less complex linear transformer to achieve classification tasks with comparable accuracy to transformers.
+        description: | # this will include new lines to allow paragraphs
+          In this project, we combine the existing traditional models and apply the new model to the MRI image detection of Alzheimer's disease to achieve the identification of different degrees of pathological stages. This project compares the characteristics of the old and new model structures and conducts in-depth experimental tests. On the basis of testing, we integrate the idea of improving the prediction accuracy of the model, and design the block-CNN structure to improve the accuracy of the traditional CNN model structure. At the same time, the attention mechanism of linear complexity is applied to the computer vision classification task, which improves the efficiency and accuracy of the model.
   - title: Experience
     layout: list
     content:
