@@ -29,12 +29,12 @@ youtube_username: haoyusun131
 googlescholar_username: Haoyu Sun
 
 # Additional icon links
-'''
+
 additional_links:
 - title: Link name
   icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
   url: www.linkedin.com/in/haoyu-sun-a0a24b286
-'''
+
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
 #   url: Link url (eg. https://google.com)
