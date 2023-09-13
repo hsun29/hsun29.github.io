@@ -111,17 +111,31 @@ content:
         title: Illinois Institute of Technology
         sub_title: Graduate/Resaerch/Teaching Assistant
         caption: 9/2022 - Present
-        link: https://github.com/hsun29/hsun29.github.io/blob/main/images/._profile.jpg
+
+        additional_links:
+          - title: decision-making
+            icon: fab fa-address-card
+            url: https://github.com/hsun29/hsun29.github.io/blob/main/images/._profile.jpg
+        
         quote: >
           
         description: | # this will include new lines to allow paragraphs
-          Responsible for the course: Intro to AI Assisting faculty with classroom instruction, leading discussion sections, meeting with students during office hours, grading assignments/exams, proctoring examinations, and providing feedback on assignments.
+          Responsible for the course: Intro to AI Assisting faculty with classroom instruction:
+          
+          1, leading discussion sections.
+          
+          2, meeting with students during office hours.
+          
+          3, grading assignments/exams, proctoring examinations, and providing feedback on assignments.
       
       - layout: left
-        title: Research Institute of Highway Ministry of Transport
+        title: Research Institute of Highway Ministry of Transport (RoadMainT Co Ltd)
         sub_title: Research And Development Engineer
         caption: 3/2022 - 1/2023
-        link: https://github.com/hsun29/hsun29.github.io/blob/main/images/._profile.jpg
+        additional_links:
+          - title: prof
+            icon: fab fa-address-card
+            url: https://github.com/hsun29/hsun29.github.io/blob/main/images/._profile.jpg
         quote: >
           
         description: | # this will include new lines to allow paragraphs
@@ -136,24 +150,157 @@ content:
           2, Research and development based on the classification and quantity of highway pavement diseases to predict highway structural diseases (Team role: Leader):
           
           • Established the classification algorithm based on the highway pavement diseases to predict the probability of structural disease in each road section. Then based on the result of predict, according to the actual production, visualization results are used to provide scientific decision-making for highway management departments.
+      
+      - layout: left
+        title: Research Institute of Highway Ministry of Transport (RoadMainT Co Ltd)
+        sub_title: Research And Development Engineer
+        caption: 7/2019 - 3/2022
+        additional_links:
+          - title: prof
+            icon: fab fa-address-card
+            url: https://github.com/hsun29/hsun29.github.io/blob/main/images/._profile.jpg
+        quote: >
+          
+        description: | # this will include new lines to allow paragraphs
+          Predict on pavement performance prediction and optimal allocation model of funds based on machine learning (Team role: leader):
+          
+          • Use the dataset of traffic volume, capital, climate, pavement performance and department production design a pavement performance prediction model (GM-LR model), It combines grey prediction and linear regression model, It has been applied in Xinjiang, Inner Mongolia and other provinces and has good results.
+          
+          • Established the multi-objective decision-making model according to the data of distribution of concept road maintenance funds and the actual benefit.
 
   - title: Education
     layout: list
     content:
       - layout: top-right
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
+        title: Illinois Institute of Technology
+        sub_title: Masters in AI
+        caption: 09/2021 - 12/2023
         quote: >
-          Short institution or course description (optional)
+          
         description: | # this will include new lines to allow paragraphs
-          Description of qualification
-  - title: A Little More About Me
+          Deep Learning, Machine Learning, NLP, Bioinformatics Analysis, Algorithm Design, Databases, Advanced AI.
+
+
+      - layout: top-right
+        title: Inner Mongolia University of Technology
+        sub_title: Bachelor of Information and Computing Science
+        caption: 09/2015 - 7/2019
+        quote: >
+          
+        description: | # this will include new lines to allow paragraphs
+          Mathematical statistics and probability theory 、mathematical analysis、Advanced algebra、 discrete mathematics、ordinary differential equation、Convex optimization、MYSQL、Python、R.
+
+  - title: Publishes # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: A Decision Making Framework for Recommended Maintenance of Road Segments (2023)
+        sub_title: <mark>Haoyu Sun</mark>, Yan Yan
+        #link: https://github.com/hsun29/deeplearning
+        #link_text: Linear ViT
+        additional_links:
+          - title:  Paper
+            icon: fab fa-download
+            url: https://doi.org/10.48550/arXiv.2307.10085
+        quote: >
+          
+        description: | # this will include new lines to allow paragraphs
+          With the rapid development of global road transportation, countries worldwide have completed the construction of road networks. However, the ensuing challenge lies in the maintenance of existing roads. It is well-known that countries allocate limited budgets to road maintenance projects, and road management departments face difficulties in making scientifically informed maintenance decisions. Therefore, integrating various artificial intelligence decision-making techniques to thoroughly explore historical maintenance data and adapt them to the context of road maintenance scientific decision-making has become an urgent issue. This integration aims to provide road management departments with more scientific tools and evidence for decision-making. The framework proposed in this paper primarily addresses the following four issues: 1) predicting the pavement performance of various routes, 2) determining the prioritization of maintenance routes, 3) making maintenance decisions based on the evaluation of the effects of past maintenance, and considering comprehensive technical and management indicators, and 4) determining the prioritization of maintenance sections based on the maintenance effectiveness and recommended maintenance effectiveness. By tackling these four problems, the framework enables intelligent decision-making for the optimal maintenance plan and maintenance sections, taking into account limited funding and historical maintenance management experience.
+      
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: Pavement performance prediction method based on GM-ANN model (Chinese Version:基于GM-ANN模型的路面性能预测方法)
+        sub_title: Hai Zhang, <mark>Haoyu Sun</mark>, Yuqiang Wang. (张海,孙浩宇,王宇强)
+        #link: https://github.com/hsun29/deeplearning
+        #link_text: Linear ViT
+        additional_links:
+          - title:  Paper
+            icon: fab fa-download
+            url: https://www.nstl.gov.cn/paper_detail.html?id=672633eede53726846ce01f1137c45ac
+        quote: >
+          
+        description: | # this will include new lines to allow paragraphs
+          English: 
+          
+          Pavement performance prediction is the core technical difficulty in highway pavement management system, which has been limited by various factors such as analysis methods, insufficient data volume and low data dimension, resulting in a large deviation between the predicted value and the measured value of several existing performance prediction models. The pavement disease is analyzed by gray system (GM) in time series, and then the prediction value of various diseases is used as input, and the pavement condition index (PCI) is indirectly predicted with the help of artificial neural network (ANN), and a hybrid model based on artificial intelligence (GM-ANN) is constructed. The results show that the hybrid prediction model based on GM-ANN has better accuracy and operability, which can provide a more accurate and reliable reference for big data maintenance decisions in practical engineering applications.
+          
+          Chinese version:
+          
+          路面性能预测是公路路面管理系统中的核心技术难点,一直以来受限于分析手段、数据体量不足及数据维度低等多种因素影响,导致现有几类性能预测模型的预测值与实测值偏差较大.将路面病害以时间序列进行灰色系统(GM)分析,后以各类病害预测值为输入,借助人工神经网络(ANN)间接对路面状况指数(PCI)进行预测,构建基于人工智能的混合模型(GM-ANN).最后选用地区随机路段进行实例验证,并同常用模型预测结果进行对比分析.结果显示:基于GM-ANN的混合预测模型更具较好的精度及可操作性,在实际工程应用中,可为大数据养护决策提供更准确、可靠的参考依据.
+
+  - title: Patents # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: 一种道路标牌及安防设施缺失的检测方法、介质及系统 (English:A detection method, medium and system for the absence of road signs and security facilities)
+        sub_title: 张海,孙浩宇,王宇强 (Hai Zhang, <mark>Haoyu Sun</mark>, Yuqiang Wang.) 
+        #link: https://github.com/hsun29/deeplearning
+        #link_text: Linear ViT
+        additional_links:
+          - title:  Pattents
+            icon: fab fa-download
+            url: https://www.xjishu.com/zhuanli/55/202211318065.html
+        quote: >
+          
+        description: | # this will include new lines to allow paragraphs
+          202211318065 · Issued Apr 6, 2023
+      
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: 基于病害数量的路面养护性质的选取方法、介质及系统
+        sub_title: 潘宗俊，张海,孙浩宇,王宇强 (Zongjun Pan, Hai Zhang, <mark>Haoyu Sun</mark>, Yuqiang Wang.)
+        #link: https://github.com/hsun29/deeplearning
+        #link_text: Linear ViT
+        additional_links:
+          - title:  Pattents
+            icon: fab fa-download
+            url: https://www.xjishu.com/zhuanli/55/202011477709.html
+        quote: >
+          
+        description: | # this will include new lines to allow paragraphs
+          CN112686396A · Filed Apr 20, 2021
+          
+
+  - title: Honors, awards and  certificate
+    layout: list
+    content:
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: 重点科技项目
+        sub_title: Issued by 中国交通运输部 · Aug 2021
+        #link: https://github.com/hsun29/deeplearning
+        #link_text: Linear ViT
+        additional_links:
+          - title:  Prof
+            icon: fab fa-address-card
+            url: https://github.com/hsun29/hsun29.github.io/blob/main/images/._profile.jpg
+       
+- title: Licenses & certifications
+    layout: list
+    content:
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: Big Data Analyst (Senior)
+        sub_title: Ministry of Industry and Information Technology of ChinaMinistry of Industry and Information Technology of China -- Issued Sep 2020
+        #link: https://github.com/hsun29/deeplearning
+        #link_text: Linear ViT
+        additional_links:
+          - title:  Prof
+            icon: fab fa-address-card
+            url: https://github.com/hsun29/hsun29.github.io/blob/main/images/._profile.jpg
+
+  - title: About me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
-
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+    Know more about me? Fell free to contact me!
 
 # Footer
 footer_show_references: true
