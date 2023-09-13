@@ -76,7 +76,7 @@ content:
           Use a less complex linear transformer to achieve classification tasks with comparable accuracy to transformers.
         description: | # this will include new lines to allow paragraphs
           In this project, we combine the existing traditional models and apply the new model to the MRI image detection of Alzheimer's disease to achieve the identification of different degrees of pathological stages. This project compares the characteristics of the old and new model structures and conducts in-depth experimental tests. On the basis of testing, we integrate the idea of improving the prediction accuracy of the model, and design the block-CNN structure to improve the accuracy of the traditional CNN model structure. At the same time, the attention mechanism of linear complexity is applied to the computer vision classification task, which improves the efficiency and accuracy of the model.
-          
+
       - layout: right
         title: TTA in image Segmentation (2023-Now)
         #link: https://github.com/hsun29/deeplearning
@@ -89,18 +89,54 @@ content:
           Research on the solution of domain drift problem in computer vision.
         description: | # this will include new lines to allow paragraphs
           This project mainly solves the domain drift problem of training and test sets and real-world engineering data, reduces the training cost of model engineering application and the workload of feature marking, and has far-reaching engineering application significance.
+
+      - layout: left
+        title: Special research on scientific decision-making on conservation in Xinjiang (2022)
+        #link: https://github.com/hsun29/deeplearning
+        #link_text: Linear ViT
+        additional_links:
+          - title: decision-making
+            icon: fab fa-github
+            url: https://github.com/hsun29/deeplearning
+        quote: >
+          Reinforcement learning intelligent decision framework.
+        description: | # this will include new lines to allow paragraphs
+          Using machine learning models and reinforcement learning to build a framework to predict pavement technical conditions, disease development prediction and intelligent recommendation of maintenance project implementation plans, the project has begun to be promoted in Xinjiang Autonomous Region of China and is ready to enter the product development stage
+
+
   - title: Experience
     layout: list
     content:
-      - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
+      - layout: left
+        title: Illinois Institute of Technology
+        sub_title: Graduate/Resaerch/Teaching Assistant
+        caption: 9/2022 - Present
+        link: https://github.com/hsun29/hsun29.github.io/blob/main/images/._profile.jpg
         quote: >
-          Short description of the company (optional)
+          
         description: | # this will include new lines to allow paragraphs
-          Description of role
+          Responsible for the course: Intro to AI Assisting faculty with classroom instruction, leading discussion sections, meeting with students during office hours, grading assignments/exams, proctoring examinations, and providing feedback on assignments.
+      
+      - layout: left
+        title: Research Institute of Highway Ministry of Transport
+        sub_title: Research And Development Engineer
+        caption: 3/2022 - 1/2023
+        link: https://github.com/hsun29/hsun29.github.io/blob/main/images/._profile.jpg
+        quote: >
+          
+        description: | # this will include new lines to allow paragraphs
+          1, Research and development pavement crack recognition based on computer vision (Team role: algorithm design):
+          
+          • Established the DensNet121 network to identify transverse cracks, longitudinal cracks and cracks. According to the actual production demand we modified the activation function of the last layer, except this, the structure of network and loss function are partially modified. 
+          
+          • Established the Mask-RCNN based on mm detection framework to identify the cracks and large area repairs through the front image taken by driving recorder. 
+          
+          • Tested the different performance of different model on road image recognition.
+          
+          2, Research and development based on the classification and quantity of highway pavement diseases to predict highway structural diseases (Team role: Leader):
+          
+          • Established the classification algorithm based on the highway pavement diseases to predict the probability of structural disease in each road section. Then based on the result of predict, according to the actual production, visualization results are used to provide scientific decision-making for highway management departments.
+
   - title: Education
     layout: list
     content:
